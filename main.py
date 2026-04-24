@@ -26,7 +26,7 @@ pd.set_option('display.width', 500)
 #############################################
 
 def load_diabetes():
-    data = pd.read_csv(r"C:\Users\necat\Downloads\diabetes-prediction\diabetes\diabetes.csv")
+    data = pd.read_csv(r"/diabetes.csv")
     return data
 
 df = load_diabetes()
